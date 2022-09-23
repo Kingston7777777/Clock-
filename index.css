@@ -1,13 +1,13 @@
 body{
     background-color: black;
-    color: white;    
+    color: white;  
 }
 
 h1{
     border: 1px solid;
-    font-size: 80px;  
+    font-size: 50px;  
     border-bottom-style: solid;
-    width: 250px;
+    width: 210px;
     text-align: center; 
     text-shadow: 0px -5px 5px red, 0px 2px 2px yellow; 
     background-color: black; 
@@ -28,14 +28,14 @@ h1{
     font-family: sans-serif;
     font-style: normal;
     font-weight: bold; 
-    font-size: 108px;
+    font-size: 70px;
     border-style: solid;
     border-color: green;
     padding: 10px;
     border-width: 3px 5px 3px 5px;
     border-radius: 10px;
     position: relative;
-    top: 80px;
+    top: 64px;
     left: 350px;
     text-shadow: 0px -5px 5px red, 0px 2px 2px yellow; 
 }
@@ -43,14 +43,14 @@ h1{
     font-family: sans-serif;
     font-style: normal;
     font-weight: bold; 
-    font-size: 108px;
+    font-size: 70px;
     border-style: solid;
     border-color: green;
     padding: 10px;
     border-width: 3px 5px 3px 5px;
     border-radius: 10px;
     position: relative;
-    top: 130px;
+    top: 119px;
     left: 380px;
     text-shadow: 0px -5px 5px red, 0px 2px 2px yellow; 
 }
@@ -61,8 +61,8 @@ h1{
     font-weight: bold;  
     font-size: 30px;
     position: relative;
-    top: 60px;
-    left: 600px;
+    top: 50px;
+    left: 540px;
 }
 
 #date{
@@ -71,6 +71,234 @@ h1{
     font-weight: bold; 
     font-size: 30px;
     position: relative;
-    top: 117px;
-    left: 590px;
+    top: 100px;
+    left: 540px;
 }
+
+@media (max-width: 1200px){/*Desktop laptop-992, Tablet-768, mobile-576*/
+    h1{
+        border: 1px solid;
+        font-size: 70px;  
+        border-bottom-style: solid;
+        width: 210px;
+        text-align: center; 
+        text-shadow: 0px -2px 5px red, 0px 2px 2px yellow; 
+        background-color: black; 
+        position: relative;
+        left: 480px;
+    }
+    
+    #time{
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold;  
+        font-size: 30px;
+        position: relative;
+        top: 50px;
+        left: 540px;
+    }
+
+    #date{
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold; 
+        font-size: 30px;
+        position: relative;
+        top: 100px;
+        left: 540px;
+    }
+
+}
+@media (max-width: 992px){
+    h1{
+        border: 1px solid;
+        font-size: 40px;  
+        border-bottom-style: solid;
+        width: 210px;
+        text-align: center; 
+        text-shadow: 0px -2px 5px red, 0px 2px 2px yellow; 
+        background-color: black; 
+        position: relative;
+        left: 270px;
+    }
+    
+    #time{
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold;  
+        font-size: 25px;
+        position: relative;
+        top: 50px;
+        left: 320px;
+    }
+
+    #date{
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold; 
+        font-size: 25px;
+        position: relative;
+        top: 100px;
+        left: 320px;
+    }
+    #myLabel{
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold; 
+        font-size: 50px;
+        border-style: solid;
+        border-color: green;
+        padding: 5px;
+        border-width: 2px 4px 2px 4px;
+        border-radius: 8px;
+        position: relative;
+        top: 64px;
+        left: 300px;
+        text-shadow: 0px -5px 5px red, 0px 2px 2px yellow; 
+    }
+    #myLabel1{
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold; 
+        font-size: 50px;
+        border-style: solid;
+        border-color: green;
+        padding: 5px;
+        border-width: 2px 4px 2px 4px;
+        border-radius: 8px;
+        position: relative;
+        top: 119px;
+        left: 300px;
+        text-shadow: 0px -5px 5px red, 0px 2px 2px yellow; 
+    }
+    
+}
+@media (max-width: 768px){
+    h1{
+        border: 1px solid;
+        font-size: 30px;  
+        border-bottom-style: solid;
+        width: 210px;
+        text-align: center; 
+        text-shadow: 0px -2px 5px red, 0px 2px 2px yellow; 
+        background-color: black; 
+        position: relative;
+        left: 170px;
+    }
+    
+    #time{
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold;  
+        font-size: 20px;
+        position: relative;
+        top: 50px;
+        left: 200px;
+    }
+
+    #date{
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold; 
+        font-size: 20px;
+        position: relative;
+        top: 100px;
+        left: 200px;
+    }
+    #myLabel{
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold; 
+        font-size: 30px;
+        border-style: solid;
+        border-color: green;
+        padding: 3px;
+        border-width: 1px 3px 1px 3px;
+        border-radius: 6px;
+        position: relative;
+        top: 64px;
+        left: 200px;
+        text-shadow: 0px -3px 4px red, 0px 1px 1px yellow; 
+    }
+    #myLabel1{
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold; 
+        font-size: 30px;
+        border-style: solid;
+        border-color: green;
+        padding: 3px;
+        border-width: 1px 3px 1px 3px;
+        border-radius: 6px;
+        position: relative;
+        top: 119px;
+        left: 200px;
+        text-shadow: 0px -3px 4px red, 0px 1px 1px yellow;
+    }
+    
+}
+@media (max-width: 576px){
+    h1{
+        border: 1px solid;
+        font-size: 25px;  
+        border-bottom-style: solid;
+        width: 110px;
+        text-align: center; 
+        text-shadow: 0px -1px 4px red, 0px 1px 1px yellow; 
+        background-color: black; 
+        position: relative;
+        left: 200px;
+    }
+    
+    #time{
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold;  
+        font-size: 15px;
+        position: relative;
+        top: 50px;
+        left: 200px;
+    }
+
+    #date{
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold; 
+        font-size: 15px;
+        position: relative;
+        top: 100px;
+        left: 200px;
+    }
+    #myLabel{
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold; 
+        font-size: 25px;
+        border-style: solid;
+        border-color: green;
+        padding: 2px;
+        border-width: 1px 3px 1px 3px;
+        border-radius: 6px;
+        position: relative;
+        top: 64px;
+        left: 200px;
+        text-shadow: 0px -2px 3px red, 0px 1px 1px yellow; 
+    }
+    #myLabel1{
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold; 
+        font-size: 25px;
+        border-style: solid;
+        border-color: green;
+        padding: 2px;
+        border-width: 1px 3px 1px 3px;
+        border-radius: 6px;
+        position: relative;
+        top: 119px;
+        left: 200px;
+        text-shadow: 0px -2px 3px red, 0px 1px 1px yellow;
+    }
+    
+}
+
