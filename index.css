@@ -5,9 +5,9 @@ body{
 
 h1{
     border: 1px solid;
-    font-size: 50px;  
+    font-size: 33px;  
     border-bottom-style: solid;
-    width: 210px;
+    width: 110px;
     text-align: center; 
     text-shadow: 0px -5px 5px red, 0px 2px 2px yellow; 
     background-color: black; 
@@ -28,10 +28,10 @@ h1{
     font-family: sans-serif;
     font-style: normal;
     font-weight: bold; 
-    font-size: 70px;
+    font-size: 60px;
     border-style: solid;
     border-color: green;
-    padding: 10px;
+    padding: 6px;
     border-width: 3px 5px 3px 5px;
     border-radius: 10px;
     position: relative;
@@ -43,10 +43,10 @@ h1{
     font-family: sans-serif;
     font-style: normal;
     font-weight: bold; 
-    font-size: 70px;
+    font-size: 60px;
     border-style: solid;
     border-color: green;
-    padding: 10px;
+    padding: 6px;
     border-width: 3px 5px 3px 5px;
     border-radius: 10px;
     position: relative;
@@ -59,246 +59,300 @@ h1{
     font-family: sans-serif;
     font-style: normal;
     font-weight: bold;  
-    font-size: 30px;
+    font-size: 25px;
     position: relative;
     top: 50px;
-    left: 540px;
+    left: 500px;
 }
 
 #date{
     font-family: sans-serif;
     font-style: normal;
     font-weight: bold; 
-    font-size: 30px;
+    font-size: 25px;
     position: relative;
     top: 100px;
-    left: 540px;
+    left: 500px;
 }
 
-@media (max-width: 1200px){/*Desktop laptop-992, Tablet-768, mobile-576*/
-    h1{
-        border: 1px solid;
-        font-size: 70px;  
-        border-bottom-style: solid;
-        width: 210px;
-        text-align: center; 
-        text-shadow: 0px -2px 5px red, 0px 2px 2px yellow; 
-        background-color: black; 
-        position: relative;
-        left: 480px;
-    }
-    
-    #time{
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold;  
-        font-size: 30px;
-        position: relative;
-        top: 50px;
-        left: 540px;
+@media (max-width: 771px){
+    body{
+        background-color: black;
     }
 
-    #date{
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold; 
-        font-size: 30px;
-        position: relative;
-        top: 100px;
-        left: 540px;
-    }
-
-}
-@media (max-width: 992px){
-    h1{
-        border: 1px solid;
-        font-size: 40px;  
-        border-bottom-style: solid;
-        width: 210px;
-        text-align: center; 
-        text-shadow: 0px -2px 5px red, 0px 2px 2px yellow; 
-        background-color: black; 
-        position: relative;
-        left: 270px;
+    hr{
+        visibility: hidden;
     }
     
-    #time{
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold;  
-        font-size: 25px;
-        position: relative;
-        top: 50px;
-        left: 320px;
-    }
-
-    #date{
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold; 
-        font-size: 25px;
-        position: relative;
-        top: 100px;
-        left: 320px;
-    }
-    #myLabel{
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold; 
-        font-size: 50px;
-        border-style: solid;
-        border-color: green;
-        padding: 5px;
-        border-width: 2px 4px 2px 4px;
-        border-radius: 8px;
-        position: relative;
-        top: 64px;
-        left: 300px;
-        text-shadow: 0px -5px 5px red, 0px 2px 2px yellow; 
-    }
-    #myLabel1{
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold; 
-        font-size: 50px;
-        border-style: solid;
-        border-color: green;
-        padding: 5px;
-        border-width: 2px 4px 2px 4px;
-        border-radius: 8px;
-        position: relative;
-        top: 119px;
-        left: 300px;
-        text-shadow: 0px -5px 5px red, 0px 2px 2px yellow; 
-    }
-    
-}
-@media (max-width: 768px){
-    h1{
-        border: 1px solid;
-        font-size: 30px;  
-        border-bottom-style: solid;
-        width: 210px;
-        text-align: center; 
-        text-shadow: 0px -2px 5px red, 0px 2px 2px yellow; 
-        background-color: black; 
-        position: relative;
-        left: 170px;
-    }
-    
-    #time{
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold;  
-        font-size: 20px;
-        position: relative;
-        top: 50px;
-        left: 200px;
-    }
-
-    #date{
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold; 
-        font-size: 20px;
-        position: relative;
-        top: 100px;
-        left: 200px;
-    }
-    #myLabel{
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold; 
-        font-size: 30px;
-        border-style: solid;
-        border-color: green;
-        padding: 3px;
-        border-width: 1px 3px 1px 3px;
-        border-radius: 6px;
-        position: relative;
-        top: 64px;
-        left: 200px;
-        text-shadow: 0px -3px 4px red, 0px 1px 1px yellow; 
-    }
-    #myLabel1{
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold; 
-        font-size: 30px;
-        border-style: solid;
-        border-color: green;
-        padding: 3px;
-        border-width: 1px 3px 1px 3px;
-        border-radius: 6px;
-        position: relative;
-        top: 119px;
-        left: 200px;
-        text-shadow: 0px -3px 4px red, 0px 1px 1px yellow;
-    }
-    
-}
-@media (max-width: 576px){
-    h1{
-        border: 1px solid;
-        font-size: 25px;  
-        border-bottom-style: solid;
-        width: 110px;
-        text-align: center; 
-        text-shadow: 0px -1px 4px red, 0px 1px 1px yellow; 
-        background-color: black; 
-        position: relative;
-        left: 200px;
-    }
-    
-    #time{
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold;  
-        font-size: 15px;
-        position: relative;
-        top: 50px;
-        left: 200px;
-    }
-
-    #date{
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold; 
-        font-size: 15px;
-        position: relative;
-        top: 100px;
-        left: 200px;
-    }
-    #myLabel{
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold; 
-        font-size: 25px;
-        border-style: solid;
-        border-color: green;
-        padding: 2px;
-        border-width: 1px 3px 1px 3px;
-        border-radius: 6px;
-        position: relative;
-        top: 64px;
-        left: 200px;
-        text-shadow: 0px -2px 3px red, 0px 1px 1px yellow; 
-    }
-    #myLabel1{
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold; 
-        font-size: 25px;
-        border-style: solid;
-        border-color: green;
-        padding: 2px;
-        border-width: 1px 3px 1px 3px;
-        border-radius: 6px;
-        position: relative;
-        top: 119px;
-        left: 200px;
-        text-shadow: 0px -2px 3px red, 0px 1px 1px yellow;
-    }
-    
+h1{
+    font-size: 20px;  
+    width: 10vw;
+    text-align: center; 
+    text-shadow: 0px 0px 0px red, 0px 0px 0px yellow; 
+    color: black; 
+    position: relative;
+    left: 250px;
+    background-color: white;
 }
 
+#myLabel{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold; 
+    font-size: 40px;
+    border-style: solid;
+    border-color: blue;
+    padding: 6px;
+    border-width: 3px 5px 3px 5px;
+    border-radius: 8px;
+    position: relative;
+    top: 64px;
+    left: 200px;
+    color: lightblue; 
+    text-shadow: 0px -0px 0px red, 0px 0px 0px yellow;
+}
+#myLabel1{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold; 
+    font-size: 40px;
+    border-style: solid;
+    border-color: blue;
+    padding: 6px;
+    border-width: 3px 5px 3px 5px;
+    border-radius: 8px;
+    position: relative;
+    top: 119px;
+    left: 200px;
+    text-shadow: 0px 0px 0px red, 0px 0px 0px yellow; 
+    color: lightblue;
+}
+
+#time{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;  
+    font-size: 20px;
+    position: relative;
+    top: 50px;
+    left: 250px;
+}
+
+#date{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold; 
+    font-size: 20px;
+    position: relative;
+    top: 100px;
+    left: 250px;
+}
+
+}
+
+@media (max-width: 509px){
+    body{
+        background-color: black;
+    }
+
+    hr{
+        visibility: hidden;
+    }
+    
+h1{
+    font-size: 15px;  
+    width: 11vw;
+    text-align: center; 
+    text-shadow: 0px 0px 0px red, 0px 0px 0px yellow; 
+    color: black; 
+    position: relative;
+    left: 200px;
+    background-color: white;
+}
+
+#myLabel{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold; 
+    font-size: 35px;
+    border-style: solid;
+    border-color: blue;
+    padding: 4px;
+    border-width: 2px 4px 2px 3px;
+    border-radius: 6px;
+    position: relative;
+    top: 64px;
+    left: 170px;
+    color: lightblue; 
+    text-shadow: 0px -0px 0px red, 0px 0px 0px yellow;
+}
+#myLabel1{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold; 
+    font-size: 35px;
+    border-style: solid;
+    border-color: blue;
+    padding: 4px;
+    border-width: 2px 4px 2px 3px;
+    border-radius: 8px;
+    position: relative;
+    top: 119px;
+    left: 170px;
+    text-shadow: 0px 0px 0px red, 0px 0px 0px yellow; 
+    color: lightblue;
+}
+
+#time{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;  
+    font-size: 15px;
+    position: relative;
+    top: 50px;
+    left: 200px;
+}
+
+#date{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold; 
+    font-size: 15px;
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
+
+}
+
+@media (max-width: 447px){
+    body{
+        background-color: black;
+    }
+
+    hr{
+        visibility: hidden;
+    }
+    
+h1{
+    visibility: hidden;
+}
+
+#myLabel{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold; 
+    font-size: 30px;
+    border-style: solid;
+    border-color: blue;
+    padding: 2px;
+    border-width: 2px 2px 2px 2px;
+    border-radius: 4px;
+    position: relative;
+    top: 64px;
+    left: 140px;
+    color: lightblue; 
+    text-shadow: 0px -0px 0px red, 0px 0px 0px yellow;
+}
+#myLabel1{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold; 
+    font-size: 30px;
+    border-style: solid;
+    border-color: blue;
+    padding: 2px;
+    border-width: 2px 2px 2px 2px;
+    border-radius: 4px;
+    position: relative;
+    top: 119px;
+    left: 140px;
+    text-shadow: 0px 0px 0px red, 0px 0px 0px yellow; 
+    color: lightblue;
+}
+
+#time{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;  
+    font-size: 10px;
+    position: relative;
+    top: 50px;
+    left: 180px;
+}
+
+#date{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold; 
+    font-size: 10px;
+    position: relative;
+    top: 100px;
+    left: 180px;
+}
+
+}
+
+@media (max-width: 383px){
+    body{
+        background-color: black;
+    }
+
+    hr{
+        visibility: hidden;
+    }
+    
+#myLabel{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold; 
+    font-size: 15px;
+    border-style: solid;
+    border-color: blue;
+    padding: 2px;
+    border-width: 2px 2px 2px 2px;
+    border-radius: 2px;
+    position: relative;
+    top: 64px;
+    left: 100px;
+    color: lightblue; 
+    text-shadow: 0px -0px 0px red, 0px 0px 0px yellow;
+}
+#myLabel1{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold; 
+    font-size: 15px;
+    border-style: solid;
+    border-color: blue;
+    padding: 2px;
+    border-width: 2px 2px 2px 2px;
+    border-radius: 2px;
+    position: relative;
+    top: 119px;
+    left: 100px;
+    text-shadow: 0px 0px 0px red, 0px 0px 0px yellow; 
+    color: lightblue;
+}
+
+#time{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;  
+    font-size: 7px;
+    position: relative;
+    top: 50px;
+    left: 130px;
+}
+
+#date{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold; 
+    font-size: 7px;
+    position: relative;
+    top: 100px;
+    left: 130px;
+}
+
+}
