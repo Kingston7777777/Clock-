@@ -75,7 +75,7 @@ h1{
     left: 500px;
 }
 
-@media (max-width: 771px){
+@media (max-width: 775px){
     body{
         background-color: black;
     }
@@ -150,7 +150,7 @@ h1{
 
 }
 
-@media (max-width: 509px){
+@media (max-width: 527px){
     body{
         background-color: black;
     }
